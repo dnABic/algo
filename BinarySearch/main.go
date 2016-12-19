@@ -3,7 +3,20 @@ package main
 import "fmt"
 
 func binarySearch(sortedList []int, lookingFor int) int {
+	var middleIndex int = len(sortedList) / 2
+	var middleElement = sortedList[middleIndex]
+	fmt.Println("Middle element is:", middleElement)
+
+	if middleElement == lookingFor {
+		return middleIndex
+	} else if middleElement > lookingFor {
+		// search for lower part
+	} else {
+		// upper part
+	}
+
 	return -1
+
 }
 
 func main() {
