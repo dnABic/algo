@@ -1,2 +1,3 @@
 # algo
-algorithms
+
+Algorithms for sort and search.
